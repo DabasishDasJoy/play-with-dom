@@ -1,0 +1,50 @@
+body{
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.card-div{
+    width: 400px;
+    margin: auto;
+    background-color: rgba(193, 193, 193, 0.485);
+    border-radius: 10px;
+    padding: 20px 50px;
+    position: relative;
+}
+.discount{
+    width: 80%;
+}
+.input-wrapper{
+    border-radius: 2px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+#input-discount, #btn-apply{
+    border: none;
+    height: 25px;
+    outline: none;
+}
+#input-discount{
+    padding-left: 10px;
+    width: 78%;
+}
+#btn-apply{
+    width: 20%;
+    background-color: red;
+    color: white;
+}
+#discount-percentage{
+    display: inline;
+    width:80px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 1px 3px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -1rem;
+}
+
